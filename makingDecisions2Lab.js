@@ -51,7 +51,15 @@ let evensArr = []
 
 //Code Here
 
-
+let even = 0;
+for(let i = 0; i < nums.length; i++){
+    if(nums[i] % 2 === 0) {
+        evensArr[even] = nums[i];
+        even++;
+    }
+}
+console.log(nums)
+console.log(evensArr)
 
 ////////// PROBLEM 5 //////////
 
