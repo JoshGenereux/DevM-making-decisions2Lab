@@ -132,7 +132,12 @@ console.log(someNum)
 
 //Code Here
 
-
+if(myFavoriteNumbers.length < 7){
+    console.log("There are not enough elements in this array")
+} else {
+    someNum = myFavoriteNumbers[6];
+    console.log(someNum)
+}
 
 ////////// PROBLEM 8 //////////
 
@@ -144,6 +149,7 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 
 //Code Here
 
+for()
 
 ////////// PROBLEM 9 //////////
 // Do not edit the code below.
